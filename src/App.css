@@ -1,6 +1,13 @@
 .box {
+  margin: 10px;
+  width: 800px;
+  height: 800px;
   border: 1px solid black;
-  width: 500px;
+  background-color: white;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20pt;
 }
 
 .item-img {
@@ -10,6 +17,30 @@
 .main {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.win {
+  border: 10px solid green;
+  border-radius: 5px;
+  color: green;
+}
+.lose {
+  border: 10px solid red;
+  border-radius: 5px;
+  color: red;
+}
+.tie {
+  border: 10px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px 30px 0px;
+  font-size: 50px;
 }
 
 button {
