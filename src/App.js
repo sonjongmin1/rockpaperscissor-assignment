@@ -5,15 +5,15 @@ import Box from './component/Box'
 const choice = {
   rock: {
     name: 'Rock',
-    img: 'http://www.hallymmedialab.com/news/photo/202004/874_1627_4638.jpg',
+    img: require('./image/rock.png'),
   },
   scissors: {
     name: 'Scissors',
-    img: 'https://cdn-icons-png.flaticon.com/512/4975/4975327.png',
+    img: require('./image/scissor.png'),
   },
   paper: {
     name: 'Paper',
-    img: 'https://img.freepik.com/free-vector/white-empty-paper-sheet-with-curl_1284-43065.jpg',
+    img: require('./image/paper.png'),
   },
 }
 
